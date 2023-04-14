@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "instrument": "piano",
+        "name": "Art Tatum",
+        "birthYear": "1909"
+    },
+    {
+        "id": "2",
+        "instrument": "piano",
+        "name": "Oscar Peterson",
+        "birthYear": "1925"
+    },
+    {
+        "id": "3",
+        "instrument": "piano",
+        "name": "Vince Guaraldi",
+        "birthYear": "1928"
+    },
+    {
+        "id": "4",
+        "instrument": "piano",
+        "name": "Herbie Hancock",
+        "birthYear": "1940"
+    },
+    {
+        "id": "5",
+        "instrument": "piano",
+        "name": "Cory Henry",
+        "birthYear": "1987"
+    },
+    {
+        "id": "6",
+        "instrument": "piano",
+        "name": "Rodney Edge, Sr",
+        "birthYear": "1971"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "instrument": "Drums",
+        "name": "Buddy Rich",
+        "birthYear": "1917"
+    },
+    {
+        "id": "2",
+        "instrument": "Drums",
+        "name": "Dennis Chambers",
+        "birthYear": "1959"
+    },
+    {
+        "id": "3",
+        "instrument": "Drums",
+        "name": "Dave Weckl",
+        "birthYear": "1960"
+    },
+    {
+        "id": "4",
+        "instrument": "Drums",
+        "name": "Vinnie Colaiuta",
+        "birthYear": "1956"
+    },
+    {
+        "id": "5",
+        "instrument": "drums",
+        "name": "Larnell Lewis",
+        "birthYear": "1984"
+    }
+]

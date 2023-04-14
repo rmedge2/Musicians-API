@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "instrument": "Bass",
+        "name": "Bootsie Collins",
+        "birthYear": "1951"
+    },
+    {
+        "id": "2",
+        "instrument": "Bass",
+        "name": "Jaco Pastorius",
+        "birthYear": "1951"
+    },
+    {
+        "id": "3",
+        "instrument": "Bass",
+        "name": "Marcus Miller",
+        "birthYear": "1959"
+    },
+    {
+        "id": "4",
+        "instrument": "Bass",
+        "name": "Victor Wooten",
+        "birthYear": "1964"
+    },
+    {
+        "id": "5",
+        "instrument": "Bass",
+        "name": "Stanley Clarke",
+        "birthYear": "1951"
+    },
+    {
+        "id": "6",
+        "instrument": "bass",
+        "name": "Rodney Edge, Sr",
+        "birthYear": "1971"
+    }
+]
