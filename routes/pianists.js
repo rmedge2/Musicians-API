@@ -16,6 +16,26 @@ router.get('/', function(req, res) {
   })
 });
 
+// Getting a pianist by id
+router.get('/:id', (req, res) => {
+    fs.readFile(PIANISTS_FILE, 'utf-8', (err,data)=>{
+      if(err){
+        console.error(err);
+        res.status(500).send('There is a problem reading the file');
+        return;
+      }
+      const bassists = JSON.parse(data);
+      const bassist = bassists.find(bassist => bassist.id === (req.params.id)) 
+      console.log(req.params)
+      if(!bassist){
+        res.status(404).send('Bassist not found')
+        return;
+      }
+      res.json(bassist)
+      
+    })
+  })
+
 // Post a new pianist
 router.post('/', (req,res) => {
     fs.readFile(PIANISTS_FILE,'utf-8', (err, data) => {
