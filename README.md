@@ -1,5 +1,5 @@
 ## COR MUSICIANS API
-___
+
 This is an API of musicians.
 
 Heare are the request methods:
