@@ -3,6 +3,10 @@
 This is an API of musicians.
 
 Heare are the request methods:
+| **Method** | **Path**  | **Description** |
+|------------|-----------|-----------------|
+|**Get**     | /bassists | Returns a list of all available bassist objects
+|
 
 `/bassists` - GET
 - Returns a list of all available bassist objects
