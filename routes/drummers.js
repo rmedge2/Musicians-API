@@ -31,7 +31,7 @@ router.get('/:id', (req, res) => {
       res.status(404).send('Drummer not found')
       return;
     }
-    res.json(bassist)
+    res.json(drummer)
     
   })
 })

@@ -24,14 +24,14 @@ router.get('/:id', (req, res) => {
         res.status(500).send('There is a problem reading the file');
         return;
       }
-      const bassists = JSON.parse(data);
-      const bassist = bassists.find(bassist => bassist.id === (req.params.id)) 
+      const pianists = JSON.parse(data);
+      const pianist = pianists.find(pianist => pianist.id === (req.params.id)) 
       console.log(req.params)
-      if(!bassist){
-        res.status(404).send('Bassist not found')
+      if(!pianist){
+        res.status(404).send('Pianist not found')
         return;
       }
-      res.json(bassist)
+      res.json(pianist)
       
     })
   })
